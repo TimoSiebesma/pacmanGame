@@ -1,0 +1,2910 @@
+{
+  "level1": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 7.5 },
+      { "Width": -170, "Height": 150, "Speed": 7.5 },
+      { "Width": -170, "Height": -170, "Speed": 7.5 },
+      { "Width": 150, "Height": -170, "Speed": 7.5 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [-198, -198],
+      [198, -198],
+      [198, 198],
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level2": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 7.7 },
+      { "Width": -170, "Height": 150, "Speed": 7.7 },
+      { "Width": -170, "Height": -170, "Speed": 7.7 },
+      { "Width": 150, "Height": -170, "Speed": 7.7 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [198, -198],
+      [198, 198],
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level3": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 7.8 },
+      { "Width": -170, "Height": 150, "Speed": 7.8 },
+      { "Width": -170, "Height": -170, "Speed": 7.8 },
+      { "Width": 150, "Height": -170, "Speed": 7.8 },
+      { "Width": 82, "Height": -101, "Speed": 7.8 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [198, -198],
+      [198, 198],
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level4": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 7.9 },
+      { "Width": -170, "Height": 150, "Speed": 7.9 },
+      { "Width": -170, "Height": -170, "Speed": 7.9 },
+      { "Width": 150, "Height": -170, "Speed": 7.9 },
+      { "Width": 82, "Height": -101, "Speed": 7.9 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [198, 198],
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level5": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 8.1 },
+      { "Width": -170, "Height": 150, "Speed": 8.1 },
+      { "Width": -170, "Height": -170, "Speed": 8.1 },
+      { "Width": 150, "Height": -170, "Speed": 8.1 },
+      { "Width": 82, "Height": -101, "Speed": 8.1 },
+      { "Width": -101, "Height": 82, "Speed": 8.1 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [198, 198],
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level6": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 8.3 },
+      { "Width": -170, "Height": 150, "Speed": 8.3 },
+      { "Width": -170, "Height": -170, "Speed": 8.3 },
+      { "Width": 150, "Height": -170, "Speed": 8.3 },
+      { "Width": 82, "Height": -101, "Speed": 8.3 },
+      { "Width": -101, "Height": 82, "Speed": 8.3 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level7": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 8.6 },
+      { "Width": -170, "Height": 150, "Speed": 8.6 },
+      { "Width": -170, "Height": -170, "Speed": 8.6 },
+      { "Width": 150, "Height": -170, "Speed": 8.6 },
+      { "Width": 82, "Height": -101, "Speed": 8.6 },
+      { "Width": -101, "Height": 82, "Speed": 8.6 },
+      { "Width": -82, "Height": -101, "Speed": 8.6 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [-198, 198],
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  },
+  "level8": {
+    "Ghosts": [
+      { "Width": 150, "Height": 150, "Speed": 8.9 },
+      { "Width": -170, "Height": 150, "Speed": 8.9 },
+      { "Width": -170, "Height": -170, "Speed": 8.9 },
+      { "Width": 150, "Height": -170, "Speed": 8.9 },
+      { "Width": 82, "Height": -101, "Speed": 8.9 },
+      { "Width": -101, "Height": 82, "Speed": 8.9 },
+      { "Width": -82, "Height": -101, "Speed": 8.9 }
+    ],
+    "Coins": [
+      {
+        "Start": -233,
+        "Repetitions": 50
+      },
+
+      {
+        "Start": 233,
+        "Repetitions": -50
+      },
+
+      {
+        "Start": -198,
+        "Repetitions": 44
+      },
+
+      {
+        "Start": 198,
+        "Repetitions": -44
+      },
+
+      {
+        "Start": -163,
+        "Repetitions": 36
+      },
+
+      {
+        "Start": 163,
+        "Repetitions": -36
+      },
+
+      {
+        "Start": -128,
+        "Repetitions": 28
+      },
+
+      {
+        "Start": 128,
+        "Repetitions": -28
+      },
+
+      {
+        "Start": -93,
+        "Repetitions": 21
+      },
+
+      {
+        "Start": 93,
+        "Repetitions": -21
+      },
+
+      {
+        "Start": -58,
+        "Repetitions": 13
+      },
+
+      {
+        "Start": 58,
+        "Repetitions": -13
+      }
+    ],
+    "CoinsExceptions": [
+      [-128, -128],
+      [128, -128],
+      [128, 128],
+      [-128, 128]
+    ],
+    "Walls": [
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+      {
+        "StartX": -250,
+        "StartY": 250,
+        "RepetitionsX": 50,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 250,
+        "StartY": -250,
+        "RepetitionsX": 0,
+        "RepetitionsY": 50
+      },
+
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+      {
+        "StartX": -215,
+        "StartY": 215,
+        "RepetitionsX": 43,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 215,
+        "StartY": -215,
+        "RepetitionsX": 0,
+        "RepetitionsY": 43
+      },
+
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+      {
+        "StartX": -180,
+        "StartY": 180,
+        "RepetitionsX": 36,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 180,
+        "StartY": -180,
+        "RepetitionsX": 0,
+        "RepetitionsY": 36
+      },
+
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+      {
+        "StartX": -145,
+        "StartY": 145,
+        "RepetitionsX": 29,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 145,
+        "StartY": -145,
+        "RepetitionsX": 0,
+        "RepetitionsY": 29
+      },
+
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+      {
+        "StartX": -110,
+        "StartY": 110,
+        "RepetitionsX": 22,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 110,
+        "StartY": -110,
+        "RepetitionsX": 0,
+        "RepetitionsY": 22
+      },
+
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+      {
+        "StartX": -75,
+        "StartY": 75,
+        "RepetitionsX": 15,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 75,
+        "StartY": -75,
+        "RepetitionsX": 0,
+        "RepetitionsY": 15
+      },
+
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": -40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      },
+      {
+        "StartX": -40,
+        "StartY": 40,
+        "RepetitionsX": 8,
+        "RepetitionsY": 0
+      },
+      {
+        "StartX": 40,
+        "StartY": -40,
+        "RepetitionsX": 0,
+        "RepetitionsY": 8
+      }
+    ],
+    "WallsExceptions": [
+      [-250, 0],
+      [-250, -10],
+      [-250, 10],
+
+      [250, 0],
+      [250, -10],
+      [250, 10],
+
+      [0, -40],
+      [-10, -40],
+      [10, -40],
+
+      [5, -75],
+      [-5, -75],
+      [15, -75],
+
+      [-75, 5],
+      [-75, -5],
+      [-75, 15],
+
+      [5, 75],
+      [-5, 75],
+      [15, 75],
+
+      [75, 5],
+      [75, -5],
+      [75, 15],
+
+      [30, -110],
+      [40, -110],
+      [20, -110],
+
+      [-110, 30],
+      [-110, 40],
+      [-110, 20],
+
+      [30, 110],
+      [40, 110],
+      [20, 110],
+
+      [110, 30],
+      [110, 40],
+      [110, 20],
+
+      [-45, -145],
+      [-35, -145],
+      [-25, -145],
+
+      [-145, -45],
+      [-145, -35],
+      [-145, -25],
+
+      [-45, 145],
+      [-35, 145],
+      [-25, 145],
+
+      [145, -45],
+      [145, -35],
+      [145, -25],
+
+      [0, -180],
+      [-10, -180],
+      [10, -180],
+
+      [-180, 0],
+      [-180, 10],
+      [-180, -10],
+
+      [0, 180],
+      [10, 180],
+      [-10, 180],
+
+      [180, -0],
+      [180, -10],
+      [180, 10],
+
+      [-95, -215],
+      [-85, -215],
+      [-105, -215],
+
+      [-215, -95],
+      [-215, -85],
+      [-215, -105],
+
+      [-95, 215],
+      [-85, 215],
+      [-105, 215],
+
+      [215, -95],
+      [215, -85],
+      [215, -105],
+
+      [95, -215],
+      [85, -215],
+      [105, -215],
+
+      [-215, 95],
+      [-215, 85],
+      [-215, 105],
+
+      [95, 215],
+      [85, 215],
+      [105, 215],
+
+      [215, 95],
+      [215, 85],
+      [215, 105]
+    ]
+  }
+}
